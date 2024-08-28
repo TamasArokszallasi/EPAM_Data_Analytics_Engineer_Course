@@ -1,0 +1,31 @@
+The purpose of this task is to grant and revoke permission to manipulate data and also get acquainted with row-level security in practice.
+Task 1. Figure out what security precautions are already used in your 'dvd_rental' database.  Prepare description
+
+
+
+Task 2. Implement role-based authentication model for dvd_rental database
+
+Create a new user with the username "rentaluser" and the password "rentalpassword". Give the user the ability to connect to the database but no other permissions.
+Grant "rentaluser" SELECT permission for the "customer" table. Сheck to make sure this permission works correctly—write a SQL query to select all customers.
+Create a new user group called "rental" and add "rentaluser" to the group. 
+Grant the "rental" group INSERT and UPDATE permissions for the "rental" table. Insert a new row and update one existing row in the "rental" table under that role. 
+Revoke the "rental" group's INSERT permission for the "rental" table. Try to insert new rows into the "rental" table make sure this action is denied.
+Create a personalized role for any customer already existing in the dvd_rental database. The name of the role name must be client_{first_name}_{last_name} (omit curly brackets). The customer's payment and rental history must not be empty. 
+
+
+
+Task 3. Implement row-level security
+
+Read about row-level security (https://www.postgresql.org/docs/12/ddl-rowsecurity.html) 
+Configure that role so that the customer can only access their own data in the "rental" and "payment" tables. Write a query to make sure this user sees only their own data.
+
+
+Task 4. Prepare answers to the following questions
+
+How can one restrict access to certain columns of a database table?
+What is the difference between user identification and user authentication?
+What are the recommended authentication protocols for PostgreSQL?
+What is proxy authentication in PostgreSQL and what is it for? Why does it make the previously discussed role-based access control easier to implement?
+
+
+

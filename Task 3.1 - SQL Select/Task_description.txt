@@ -1,0 +1,37 @@
+This part will check your ability to solve a task with the SQL queries written in different ways, as well as your ability to clarify questions with the reviewer. You are expected to provide at least one solutions for each question below.
+       1. Different solutions are more about technical part of a solution (e.g. joins, CTEs, subqueries: for example, in the first solution you solved task through subqueries, try rewriting your query using a CTE). The second option of your SQL query should also align with the requirements of the business task.
+       2. While performing your practice, you can find the missing details in the task description needed to complete it successfully. Feel free to approach mentors for assistance in our chat.
+       3. Before each of your query, it would be greatly if you could include the task's conditions as a comment. Additionally, please provide an explanation of how you interpreted the task's business logic, following our discussion in chat. 
+
+Part 1: Write SQL queries to retrieve the following data
+
+All animation movies released between 2017 and 2019 with rate more than 1, alphabetical
+The revenue earned by each rental store after March 2017 (columns: address and address2 – as one column, revenue)
+Top-5 actors by number of movies (released after 2015) they took part in (columns: first_name, last_name, number_of_movies, sorted by number_of_movies in descending order)
+Number of Drama, Travel, Documentary per year (columns: release_year, number_of_drama_movies, number_of_travel_movies, number_of_documentary_movies), sorted by release year in descending order. Dealing with NULL values is encouraged)
+
+Part 2: Solve the following problems using SQL
+
+Who were the top revenue-generating staff members in 2017? They should be rewarded with a bonus for their performance. Please indicate which store the employee worked in. If he changed stores during 2017, indicate each store. (assumption: if staff processed the payment then he works in the same store)
+Which 5 movies were rented more than others, and what's the expected age of the audience for these movies? To determine expected age please use 'Motion Picture Association film rating system
+
+
+
+Part 3. Which actors/actresses didn't act for a longer period of time than the others? 
+
+The task can be interpreted in various ways, and here are a few options:
+V1: gap between the latest release_year and current year per each actor;
+V2: gaps between sequential films per each actor;
+
+It would be plus if you could provide a solution for each interpretation
+
+
+Note:
+Please add comments why you chose a particular way to solve each tasks.
+IDs should not be hardcoded
+Don't use column number in GROUP BY and ORDER BY
+Specify JOIN types (INNER/RIGHT/LEFT/CROSS)
+Use code formatting standards
+ You cannot use window functions
+We request you test your work before commit it. Code should run w/o errors
+

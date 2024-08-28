@@ -1,0 +1,6 @@
+Please pay attention, you have to solve all exercises from the suggested simulators below and attach the result to your repository as a png file (deadline on the calendar)
+Name of the branch for screenshot from SQL Simulators:  SQL_Simulators_tasks (all screenshots from all simulators put in one folder and commit this folder in this branch)
+https://www.pgexercises.com/questions/basic/
+SQLBolt
+https://www.khanacademy.org/computing/computer-programming/sql
+

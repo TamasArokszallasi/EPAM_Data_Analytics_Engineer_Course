@@ -1,0 +1,18 @@
+You bought a small sushi restaurant, taking orders for preparation and delivery.
+You have at your disposal a staff of couriers providing delivery of orders.
+Your task is to design a logical data model for storing/processing information about accepted orders and their delivery details
+
+Order data (composition, cost, time of acceptance of the order, etc.)
+Delivery information (delivery time, delivery address - district, street, etc.)
+Courier data
+Any other information on the topic is at your discretion
+The model should be in 3rd normal form (3NF)
+Your model should include at least 10-15 tables (relations)
+Keys and other constraints should be specified
+
+Feel free to use whichever design tool you prefer. Here are several examples to choose from:
+draw.io (recommended)
+PgModeler.io
+drawSQL
+StarUML (for the guideline address the video ER Diagram)
+

@@ -1,0 +1,14 @@
+Task description
+Top-3 most selling movie categories of all time and total dvd rental income for each category. Only consider dvd rental customers from the USA.
+For each client, display a list of horrors that he had ever rented (in one column, separated by commas), and the amount of money that he paid for it
+
+
+
+Note:
+Please add comments why you chose a particular way to solve each tasks.
+IDs should not be hardcoded
+Don't use column number in GROUP BY and ORDER BY
+Use code formatting standards
+ You cannot use window functions
+We request you test your work before commit it. Code should run w/o errors
+

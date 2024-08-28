@@ -1,0 +1,22 @@
+Task 1. Provide description for each table within the Sales History Schema
+
+Analyze the structure and relationships of the Sales History Schema’s tables to understand the data model and design considerations for OLAP and OLTP.
+Find out fact and dimension tables and briefly describe schema (what information is stored into it). 
+Template is below:
+
+
+
+Task 2. Star/Snowflake schemas 
+
+Create separate ERD for all stars/snowflakes in this schema.
+Save sub-views of stars/snowflakes as PNG images.
+
+
+Task 3. Write SQL queries to perform the following tasks:
+
+Retrieve the total sales amount for each product category for a specific time period
+Calculate the average sales quantity by region for a particular product
+Find the top five customers with the highest total sales amount
+
+
+

@@ -1,0 +1,32 @@
+Your task is to design a logical data model for one of the specified subject areas based on the requirements for a database
+
+The model should be in 3rd normal form (3NF).
+Your model should include 10-15 tables (relations).
+Your model should include at least one many-to-many relationship (think about how to implement this relationship).
+All relationships  should be graphically indicated on the diagram
+Сheck that the visualization of relationship matches the logic
+The correct data types should be specified.
+Keys and other constraints should be specified.
+The names of the tables and columns should be clear (adhere to the coding standards).
+
+
+
+We've selected a topic for you to model randomly. 
+You can find the topic chosen for you in the MS Teams Group -> DB Basics channel -> Files: 'DB Basics file. Task 2. Topic-Mentee.xlsx'
+Below, you'll find a detailed description of the topics:
+Recruitment Agency
+Subway (metro)
+Political Campaign
+Climbs for a Mountaineering Club
+An Auction House
+Social Media
+
+Please note: in this task the topic of sushi delivery (you modeled earlier) or your own will not be accepted
+
+
+Feel free to use whichever design tool you prefer. Here are several examples to choose from:
+draw.io (recommended)
+PgModeler.io
+drawSQL
+StarUML (for the guideline address the video ER Diagram)
+
